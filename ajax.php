@@ -11,9 +11,9 @@ $prize_arr = array(
     '6' => array('id' => 7, 'prize' => '七等奖', 'v' => 5),
     '7' => array('id' => 8, 'prize' => '八等奖', 'v' => 5),
     '8' => array('id' => 9, 'prize' => '九等奖', 'v' => 5),
-    '9' => array('id' => 10, 'prize' => '十等奖', 'v' => 5),
-    '10' => array('id' => 11, 'prize' => '十一等奖', 'v' => 25),
-    '11' => array('id' => 12, 'prize' => '十二等奖', 'v' => 25),
+    //'9' => array('id' => 10, 'prize' => '十等奖', 'v' => 5),
+    //'10' => array('id' => 11, 'prize' => '十一等奖', 'v' => 25),
+    //'11' => array('id' => 12, 'prize' => '十二等奖', 'v' => 25),
 );
 foreach ($prize_arr as $k=>$v) {
     $arr[$v['id']] = $v['v'];
